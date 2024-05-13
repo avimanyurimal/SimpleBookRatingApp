@@ -4,7 +4,15 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.1/firebas
 import { getFirestore, collection, query, orderBy, onSnapshot, addDoc } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
 
 // Your web app's Firebase configuration
-
+const firebaseConfig = {
+    apiKey: "AIzaSyDQ9bmaVkWeVHY_zCCTi2KwWZIn4obo-10",
+    authDomain: "cs022-2358196.firebaseapp.com",
+    projectId: "cs022-2358196",
+    storageBucket: "cs022-2358196.appspot.com",
+    messagingSenderId: "215550901277",
+    appId: "1:215550901277:web:01a6fd9579daf30cd11af4",
+    measurementId: "G-EGBM5Q69KB"
+  };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
